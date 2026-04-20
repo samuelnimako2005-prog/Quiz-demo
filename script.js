@@ -107,7 +107,7 @@ const quizQuestions = [
   }
 ];
 
-// QUIZ STATE VARS
+
 let currentQuestionIndex = 0;
 let score = 0;
 let answersDisabled = false;
@@ -151,7 +151,7 @@ function showQuestion() {
     button.textContent = answer.text;
     button.classList.add("answer-btn");
 
-    // what is dataset? it's a property of the button element that allows you to store custom data
+    
     button.dataset.correct = answer.correct;
 
     button.addEventListener("click", selectAnswer);
