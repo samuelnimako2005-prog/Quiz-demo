@@ -162,7 +162,7 @@ button:hover {
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 500px) {
-  /* when we hit 500px and below, implement the styles below */
+  
 
   .screen {
     padding: 1rem;
